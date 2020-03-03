@@ -1,3 +1,5 @@
+
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -54,7 +56,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
- def runner
+def runner
   welcome
   total = initial_round
   until total > 21
